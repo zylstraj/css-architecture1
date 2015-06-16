@@ -1,0 +1,116 @@
+.userinfo {
+  border: 2px solid;
+  border-radius: 8px;
+}
+.company {
+  font-size: 50px;
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin: 10px 0 0 5px;
+}
+.company a {
+  text-decoration: none;
+  color: purple;
+}
+.closing {
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+  color: purple;
+}
+.userinfo__breakfast {
+  border-color: green;
+}
+.userinfo__dinner {
+  border-color: red;
+}
+.userinfo__login {
+  border-color: orange;
+}
+.userinfo__email {
+  border-color: blue;
+}
+.btn {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 2px 0 4px 2px;
+}
+.button-1 {
+  font-family: Helvetica, sans-serif;
+}
+.button-2 {
+  font-family: Arial, sans-serif;
+}
+.userinfo__email1 {
+  color: blue;
+  margin-left: 2px;
+}
+.userinfo__login1 {
+  color: orange;
+  margin-left: 2px;
+}
+.userinfo__login2 {
+  color: blue;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.userinfo__email2 {
+  color: orange;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.food__choice {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+.breakfast__choice {
+  color: green;
+}
+.dinner__choice {
+  color: red;
+}
+.foodchoice {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.breakfastchoice__1 {
+  color: red;
+}
+.dinnerchoice__1 {
+  color: green;
+}
+.choices {
+  display: inline-block;
+  text-transform: uppercase;
+}
+.cities {
+  margin: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 10px;
+}
+.direction {
+  margin: 2px;
+}
+.cities a {
+  color: purple;
+}
+.closing a {
+  color: purple;
+}
+.heading {
+  color: orange;
+  font-size: 24px;
+  font-family: Helvetica, sans-serif;
+}
+.heading {
+  color: orange;
+}
+.menu a {
+  color: purple;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+}
