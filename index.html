@@ -1,0 +1,87 @@
+<!doctype html>
+<!--Basic HTML layout for any webpage -->
+<html class="no-js" lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Stuff Your Face</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" type="text/css" href="module.css">
+    <link rel="stylesheet" type="text/css" href="state.css">
+  </head>
+  <body>
+    <header class="header">
+        <h1 class="company"><a href="index.html">Stuff Your Face</a></h1>
+    </header>
+    <nav class="options">
+        <h1 class="heading">Today's Menu</h1>
+            <ul class="choices menu">
+                <li class="menu menu__breakfast"><a href="breakfast.html">Breakfast</a></li>
+                <li class="menu menu__lunch"><a href="lunch.html">Lunch</a></li>
+                <li class="menu menu__dinner"><a href="dinner.html">Dinner</a></li>
+            </ul>
+    </nav>
+    <form>
+        <fieldset class="userinfo userinfo__login">
+            <legend class="userinfo__login2">Login Information</legend>
+            <ul class="userinfo__login1">
+                <li><label for="username">Username: </label><input type="text" name="username" placeholder="Username" id="name" required>
+                <li><label for="password">Password: </label><input type="text" name="password" placeholder="Password" id="email" required>
+            </ul>
+            <input type="submit" class="btn button-1" value="Sign In">
+        </fieldset>
+    </form>
+    <form>
+        <fieldset class="userinfo userinfo__email">
+            <legend class="userinfo__email2">Join Email List</legend>
+            <ul class="userinfo__email1">
+                <li><label for="name">Name: </label><input type="text" name="name" placeholder="First Last" id="name" required>
+                <li><label for="email">Email: </label><input type="email" name="email" placeholder="Email" id="email" required>
+                <h1>Information About Upcoming Events, Special Discounts, and An Early Look At Next Week's Menu</h1>
+                <input type="submit" class="btn button-1" value="Join">
+            </ul>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset class="userinfo userinfo__breakfast">
+            <legend class="foodchoice breakfastchoice__1">Choose Your Breakfast Favorite <abbr title="Required">*</abbr></legend>
+            <ul class="breakfast-options">
+                <li><label for="breakfast1" class="food__choice breakfast__choice"><input id="breakfast1" type="radio" checked/> French Toast</label></li>
+                <li><label for="breakfast2" class="food__choice breakfast__choice"><input id="breakfast2" type="radio"/>Bacon and Eggs</label></li>
+                <li><label for="breakfast3" class="food__choice breakfast__choice"><input id="breakfast3" type="radio"/>Biscuits and Gravy</label></li>
+                <li><label for="breakfast4" class="food__choice breakfast__choice"><input id="breakfast4" type="radio"/>Fruit Platter</label></li>
+            </ul>
+            <input type="submit" class="btn button-2" value="Submit">
+        </fieldset>
+    </form>
+    <form>
+        <fieldset class="userinfo userinfo__dinner">
+            <legend class="foodchoice dinnerchoice__1">Choose Your Dinner Favorite <abbr title="Required">*</abbr></legend>
+            <ul class="food-options">
+                <li><label for="food1" class="food__choice dinner__choice"><input id="food1"  type="radio" checked/>Steak</label></li>
+                <li><label for="food2" class="food__choice dinner__choice"><input id="food2"  type="radio"/>Chicken Parmesan</label></li>
+                <li><label for="food3" class="food__choice dinner__choice"><input id="food3"  type="radio"/>Cheeseburger and French Fries</label></li>
+                <li><label for="food4" class="food__choice dinner__choice"><input id="food4"  type="radio"/>Salmon and Vegetable Platter</label></li>
+            </ul>
+            <input type="submit" class="btn button-2" value="Submit">
+        </fieldset>
+    </form>
+    <nav class="options">
+        <h1 class="heading">PNW Locations</h1>
+        <ul class="choices direction">
+          <li class="cities"><a href="work.html">Seattle</a></li>
+          <li class="cities"><a href="podcast.html">Portland</a></li>
+          <li class="cities"><a href="contact.html">Vancouver</a></li>
+        </ul>
+    </nav>
+    <footer class="footer">
+      <p class="closing">Stuff Your Face LLC</p>
+      <p class="closing"><a href="mailto:foodknowledge@gmail.com">stuffyourface@gmail.com</a></p>
+      <p class="closing"><a href="tel:+16165601234">616-560-1234</a></p>
+    </footer>
+  </body>
+</html>
