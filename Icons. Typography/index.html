@@ -1,61 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Weekend Pants Unlimited</title>
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/state.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
-
 </head>
 <body class="container">
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <header class="twelve columns">
-      <h1 class="five columns offset-by-one columns"><a href="index.html">Weekend Pants Unlimited</a></h1>
-      <ul class="six columns">
-        <li class="info one-third column"><a href="">Shop</a></li>
-        <li class="info one-third column"><a href="">About</a></li>
-        <li class="info one-third column"><a href="">Contact</a></li>
-      </ul>
+  <header class="twelve columns main_header">
+      <h1 class="six columns main_header_logo"><a href="index.html">Weekend Pants Unlimited</a></h1>
+      <nav>
+        <ul class="six columns main_header_nav_ul">
+          <li class="info"><a href="">Shop</a></li>
+          <li class="info"><a href="">About</a></li>
+          <li class="info"><a href="">Contact</a></li>
+        </ul>
+      </nav>
   </header>
-  <div class="twelve columns">
-    <img src="images/pants.jpg" alt="People Wearing Weekend Pants" style="max-width:100%;height:auto;">
-  </div>
-  <section class="twelve columns">
-    <button class="four columns offset-by-two columns"><a href="">
-      <span class="icon-twitter2" aria-hidden="true"></span>
-    Tweet Us!</a>
-    </button>
-    <button class="four columns offset-by-one columns"><a href="">
-      <span class="icon-facebook2" aria-hidden="true"></span>
-    Facebook Us!</a>
-    </button>
-  </section>
-  <footer class="twelve columns" offset-by-three columns>
+  <ul class="twelve columns mainphoto">
+      <li class="twelve columns mainphoto"><img src="images/pants.jpg" alt="People Wearing Weekend Pants" style="max-width:100%;height:auto%;"></li>
+  </ul>
+  <form class="twelve columns">
+    <fieldset class="twelve columns subscribe_email">
+      <legend class="subscribe_email_header">Suscribe For News, Updates, and Discounts</legend>
+        <ul>
+          <li><label for="email"></label><input type="email" name="email" placeholder="Email" id="email" class="subscribe_email_user" required>
+          <input type="submit" name="button" value="Subscribe"></li>
+        </ul>
+      </legend>
+    </fieldset>
+  </form>
+  <ul class="twelve columns links">
+    <a href="twitter.com">
+      <li class="four columns offset-by-two columns icon-twitter2"></li>
+    </a>
+    <a href="facebook.com">
+      <li class="four columns offset-by-one columns icon-facebook2 aria-hidden="true""></li>
+    </a>
+  </ul>
+  <footer class="twelve columns">
     <p class="goodbye eight columns offset-by-two columns">Copyright &copy Weekend Pants Unlimited. All Rights Reserved</p>
   </footer>
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
