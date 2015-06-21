@@ -22,15 +22,20 @@
         </ul>
       </nav>
   </header>
-  <ul class="twelve columns mainphoto">
-      <li class="twelve columns mainphoto"><img src="images/pants.jpg" alt="People Wearing Weekend Pants" style="max-width:100%;height:auto%;"></li>
-  </ul>
+  <section class="twelve columns slider">
+    <figure>
+      <img src="images/weekend_pants.jpg" alt>
+      <img src="images/weekend_pants_1.jpg" alt>
+      <img src="images/weekend_pants_2.jpg" alt>
+      <img src="images/weekend_pants.jpg" alt>
+    </figure>
+  </section>
   <form class="twelve columns">
     <fieldset class="twelve columns subscribe_email">
       <legend class="subscribe_email_header">Suscribe For News, Updates, and Discounts</legend>
         <ul>
-          <li><label for="email"></label><input type="email" name="email" placeholder="Email" id="email" class="subscribe_email_user" required>
-          <input type="submit" name="button" value="Subscribe"></li>
+          <li><label for="email"></label><input type="email" name="email" placeholder="Email" id="email" class="subscribe_email_user" required><button type ="submit" class="btn btn_emailsubscribe" name="button" value="Submit">Submit</button></li>
+          <!--<input type="submit" name="button" value="Subscribe"></li> -->
         </ul>
       </legend>
     </fieldset>

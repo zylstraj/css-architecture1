@@ -3,19 +3,11 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
+html, body, object, iframe,
+h1, h2, h3, a, img, var, center, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+article, aside, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -178,7 +170,7 @@ there.
     font-size: 1em;
   }
   body {
-  font-family: "Quicksand", sans-serif;
+    font-family: "Quicksand", sans-serif;
   }
   .info {
     font-size: 2em;
@@ -191,7 +183,8 @@ there.
     color: black;
   }
   input[placeholder="Email"] {
-    letter-spacing: .5em;
+    letter-spacing: .2em;
+    font-size: .9em;
   }
   /* What Do I Do With These? Modules?? */
   input {
@@ -206,17 +199,25 @@ there.
     letter-spacing: .1em;
   }
   a {
-  text-decoration: none;
+    text-decoration: none;
   }
   .mainphoto {
-  text-decoration: none;
+    text-decoration: none;
   }
 }
 
-/* Larger than phablet (also point when grid becomes active) */
+/* Larger than Tablet (also point when grid becomes active)
+Code For Tablet sized devices   ------------------- */
+
 @media (min-width: 550px) {
   .info {
     font-size: 1.4em;
+  }
+  .main_header_logo {
+    font-size: 2.5em;
+  }
+  .subscribe_email_header {
+    font-size: 1em;
   }
 }
 /* Larger than tablet */
@@ -234,32 +235,32 @@ there.
 
 /* Font Family Shit */
 @font-face {
-     font-family: 'Quicksand';
-     src: url('../fonts/quicksand/Quicksand-Regular.otf') format('truetype');
-     font-weight: normal;
-     font-style: normal;
+  font-family: 'Quicksand';
+  src: url('../fonts/quicksand/Quicksand-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-     font-family: 'Quicksand';
-     src: url('../fonts/quicksand/Quicksand-Italic.otf') format('truetype');
-     font-weight: normal;
-     font-style: italic;
+  font-family: 'Quicksand';
+  src: url('../fonts/quicksand/Quicksand-Italic.otf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
 }
 @font-face {
-     font-family: 'Quicksand';
-     src: url('../fonts/quicksand/Quicksand-Bold.otf') format('truetype');
-     font-weight: bold;
-     font-style: normal;
+  font-family: 'Quicksand';
+  src: url('../fonts/quicksand/Quicksand-Bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 @font-face {
-     font-family: 'Quicksand';
-     src: url('../fonts/quicksand/Quicksand-BoldItalic.otf') format('truetype');
-     font-weight: bold;
-     font-style: italic;
+  font-family: 'Quicksand';
+  src: url('../fonts/quicksand/Quicksand-BoldItalic.otf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
 }
 
 
- /* ICON SHIT - FUCKING TRYING */
+ /* ICON SHIT - Facebook and Twitter: The logos --  */
 @font-face {
   font-family: 'icomoon';
   src:url('../fonts/icomoon/fonts/icomoon.eot?g37nsp');
